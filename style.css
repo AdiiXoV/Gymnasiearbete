@@ -1,0 +1,223 @@
+@import url(reset.css);
+
+html {
+    background: black url(assets/tlo.jpg) no-repeat fixed;
+    background-size: cover;
+    font-size: 100%;
+    font-family: 'Quattrocento', serif;
+}
+
+
+.menu{
+    background: white url(assets/hamburger.jpg) center no-repeat;
+    width: 3.6rem;
+    height: 3.2rem;
+    position: fixed;
+    right: 2%;
+    z-index: 9999;
+}
+
+.hoverme:hover header {
+    display: block;
+}
+
+.brown {color: #ffc107;}
+.grey {color: #3E3B47;}
+
+.dot{
+    background-color: White;
+    width: 1rem;
+    height: 1rem;
+    margin: 3rem auto;
+    border-radius: 2rem;
+}
+
+.deleted{
+    text-decoration: line-through;
+}
+
+.button{
+    display: inline-block;
+    border: 0.1rem dashed #3E3B47;
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    background-color: rgba(256,256,256, 0.8);
+}
+
+h1 {
+    font-size: 3.7rem;
+    padding: 40px;
+    background-color: rgba(255,255,255, 0.8);
+    padding: 3.5rem;
+    margin: 4.0rem;
+    display: inline-block;
+    border-top-left-radius: 2rem;
+    //margin-left: -20%;
+}
+
+ <h1><span
+
+h2 {font-size: 2.7rem; color: white;}
+
+h3 {
+    font-size: 2.5rem; color: white;
+}
+
+h3, h2 {
+    color: white;
+    background-color: #3E3B47;
+    padding: 3.5rem;
+    display: inline-block;
+}
+
+p {
+  color: White;
+    font-size: 1.8rem;
+    line-height: 1.55;
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: #B6B7BA;
+}
+
+.summary{
+  color: white;
+    font-size: 2.4rem;
+    font-style: italic;
+}
+
+ul {
+    font-size: 2.3rem;
+    line-height: 1.75;
+}
+
+header{
+    display: none;
+    background: #48504e;
+    color: white;
+    height: 30rem;
+    padding: 3rem 10rem;
+}
+
+nav {
+    float: right;
+}
+
+section {
+    width: 50%;
+    min-width: 600px;
+    position: absolute;
+    right: 5%;
+}
+
+figure {
+    margin-left: -30%;
+    margin-top: 20%;
+    float: left;
+}
+
+hgroup {
+    margin-left: -25%;
+    display: inline-block;
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+.text {
+    padding-top: 3rem;
+    column-count: 2;
+}
+
+footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    background-color: white;
+}
+
+form {
+    float: left;
+    width: 35rem;
+}
+
+input, textarea {
+    width: 35rem;
+    background: none;
+    border: 2px #d4d4d3 solid;
+    margin: .5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+button {
+    background: #ffc107;
+    border: none;
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1000px){
+
+    html{
+        background: #00000;
+    }
+
+    section {
+        width: 20%;
+    }
+
+    .bg{
+        background: url(assets/tlo.jpg) fixed
+        no-repeat;
+        height: 2rem;
+    }
+
+}
+
+@media all and (max-width: 768px){
+    hgroup {
+    margin-left: 0;
+    }
+
+    figure {
+    display: none;
+    }
+
+mborghini </span> idk <
+
+    section {
+    width: 10%;
+    min-width: 30px;
+    right: 5%;
+    }
+
+    .text {
+    column-count: 1;
+    }
+}
